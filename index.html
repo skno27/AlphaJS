@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Margarine&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="styles.css" />
+  </head>
+  <body>
+    <h1>Alphabet App</h1>
+    <div id="container-div">
+      <button
+        class="btn"
+        onclick="decrement()">
+        Last
+      </button>
+      <h1 id="letter"></h1>
+      <button
+        class="btn"
+        onclick="increment()">
+        Next
+      </button>
+      <audio
+        id="mouse-sound"
+        src="./static/Blue_Mouse_Click.mp3"></audio>
+    </div>
+    <button
+      id="reset"
+      onclick="reset()">
+      Start Over
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>
