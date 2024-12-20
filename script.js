@@ -28,6 +28,7 @@ const audioElement = document.getElementById("mouse-sound");
 Array.from(clickers).forEach((button) => {
   button.addEventListener("click", () => {
     audioElement.currentTime = 0;
+    audioElement.volume = 0.6;
     audioElement.play();
   });
 });
