@@ -27,11 +27,11 @@ body {
   box-shadow: 3px 3px rgba(255, 0, 0, 0.205),
     -1em 0 0.4em rgba(128, 128, 0, 0.27);
 
-  margin-top: 28vh;
+  margin-top: 10vh;
 }
 
 #container-div h1 {
-  font-size: 45vw;
+  font-size: 30vw;
   font-family: "Arial", sans-serif;
 }
 
