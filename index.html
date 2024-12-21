@@ -22,21 +22,25 @@
   </head>
   <body>
     <h1>Noni's Alphabet App</h1>
-    <div id="container-div">
-      <button
-        class="btn"
-        onclick="decrement()">
-        Last
-      </button>
-      <h1 id="letter"></h1>
-      <button
-        class="btn"
-        onclick="increment()">
-        Next
-      </button>
-      <audio
-        id="mouse-sound"
-        src="./static/Blue_Mouse_Click.mp3"></audio>
+    <div id="box-div">
+      <div id="container-div">
+        <div></div>
+        <button
+          class="btn"
+          onclick="decrement()">
+          Last
+        </button>
+        <h1 id="letter"></h1>
+        <button
+          class="btn"
+          onclick="increment()">
+          Next
+        </button>
+        <audio
+          id="mouse-sound"
+          src="./static/Blue_Mouse_Click.mp3"></audio>
+      </div>
+      <div id="img-container"></div>
     </div>
     <button
       id="reset"
